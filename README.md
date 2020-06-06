@@ -1,2 +1,2 @@
-# leet_code_programs
+# Problem Solved
 Contains the codes of problems in LeetCode
