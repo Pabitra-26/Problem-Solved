@@ -1,0 +1,5 @@
+This part is reserved for the hackerrank problems only.
+the format of the file is supposed to be the following
+
+//commenting the title of the problem
+the solution following the above
