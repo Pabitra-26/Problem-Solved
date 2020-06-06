@@ -1,2 +1,3 @@
 # Problem Solved
-Contains the codes of problems in LeetCode
+
+Contains all the problem with the solutions done on various coding platforms by pabi and shubham 
