@@ -1,0 +1,19 @@
+# Insert a node at a specific position in a linked list
+
+def insertNodeAtPosition(head, data, position):
+    if(position==0):
+        node=SinglyLinkedListNode(data)
+        head=node
+        
+    else:
+        count=0
+        itr=head
+        while(itr):
+            if(count==position-1):
+                node=SinglyLinkedListNode(data)
+                node.next=itr.next
+                itr.next=node
+                break
+            itr=itr.next
+            count+=1
+    return head 
