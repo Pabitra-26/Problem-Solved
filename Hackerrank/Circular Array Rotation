@@ -1,0 +1,23 @@
+# Circular Array Rotation
+
+
+def circularArrayRotation(a, k, queries):
+    li=[]
+    l=[]
+    if(k<len(a)):
+        m=a[-k:]
+        n=a[:-k]
+        l=m+n
+    elif(k==len(a)):
+        l=a
+    elif(k>len(a)):
+        s=k
+        while(s>len(a)):
+            s-=len(a)
+        m=a[-s:]
+        n=a[:-s]
+        l=m+n
+    for i in queries:
+            li.append(l[i])
+            print(l[i])
+    return li
