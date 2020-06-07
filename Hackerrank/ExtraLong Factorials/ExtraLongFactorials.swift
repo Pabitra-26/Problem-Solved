@@ -137,5 +137,8 @@ func extraLongFactorials(n: Int) -> Void {
     }
 }
 
+guard let n = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
+else { fatalError("Bad input") }
 
-extraLongFactorials(n: 25)                                  // calling the function ,you can put anything in place of 25
+extraLongFactorials(n: n)
+
