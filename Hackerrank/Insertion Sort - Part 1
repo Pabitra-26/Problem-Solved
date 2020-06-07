@@ -1,0 +1,22 @@
+# Insertion Sort - Part 1
+
+def insertionSort1(n, arr):
+    m=arr[len(arr)-1]
+    n=len(arr)-2
+    while(n>=0):
+        if(arr[n]>m):
+            arr[n+1]=arr[n]
+            for i in arr:
+                print(i, end=" ")  
+            print() 
+            if(arr[0]==arr[1]):
+                arr[0]=m
+                for i in arr:
+                    print(i, end=" ")             
+            n-=1
+        elif(arr[n]<m):
+            arr[n+1]=m
+            for i in arr:
+                print(i,end=" ")
+            print()                           
+            break
