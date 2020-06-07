@@ -1,0 +1,11 @@
+# Insert a node at the head of a linked list
+
+def insertNodeAtHead(llist, data):
+    node=SinglyLinkedListNode(data)    
+    if llist==None:
+        llist=node
+    else:
+        node.next=llist
+        llist=node
+    return llist
+    
