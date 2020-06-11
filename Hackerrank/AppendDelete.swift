@@ -1,15 +1,10 @@
 // Problem Name : Append and Delete
-//Description : 
+
 
 
 import Foundation
 
 func appendAndDelete(s: String, t: String, k: Int) -> String {
-
-    if s.count+t.count < k {
-        return("Yes")
-    }
-
     var sArr = Array(s)
     var tArr = Array(t)
     var c = 0
