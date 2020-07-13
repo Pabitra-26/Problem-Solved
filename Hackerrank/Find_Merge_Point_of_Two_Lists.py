@@ -1,8 +1,8 @@
 # Problem name: Find Merge Point of Two Lists
 # Description: Given pointers to the head nodes of 2 linked lists that merge together at some point, find the Node where the two lists merge.
 # It is guaranteed that the two head Nodes will be different, and neither will be NULL.
-# Strategy: iterate through one linked list and store the addresses of its nodes in one set, now, iterate through the second linked list.
-# while iterating through the second list, check if the address of each node, if its present in the set, if yes, then return that node data
+# Strategy: traverse through one linked list and store the addresses of its nodes in one set, now, traverse through the second linked list.
+# while traversing through the second list, check if the address of each node, if its present in the set, if yes, then return that node data
 
 import math
 import os
